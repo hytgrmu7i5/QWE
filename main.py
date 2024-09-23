@@ -146,7 +146,7 @@ if st.button('특징 생성'):
         특징 = mbti_data[mbti]['특징']
         직업 = mbti_data[mbti]['직업']
         잘_맞는_mbti = ', '.join(mbti_data[mbti]['잘 맞는 MBTI'])
-        순위 = mbti_data[mbti]['순위']
+        유명인 = mbti_data[mbti]['유명인']
         
         st.write(f"{name}님! 당신의 MBTI 유형은 {mbti}입니다!")
         st.write(f"**특징**: {특징}")
